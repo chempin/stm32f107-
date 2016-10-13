@@ -1,7 +1,7 @@
 ..\obj\main.o: main.c
 ..\obj\main.o: stm32f10x.h
 ..\obj\main.o: ..\CORE\core_cm3.h
-..\obj\main.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\main.o: D:\KEIL\ARM\ARMCC\bin\..\include\stdint.h
 ..\obj\main.o: system_stm32f10x.h
 ..\obj\main.o: stm32f10x_conf.h
 ..\obj\main.o: ..\STM32FWLIB\inc\stm32f10x_adc.h
@@ -28,6 +28,11 @@
 ..\obj\main.o: ..\STM32FWLIB\inc\stm32f10x_usart.h
 ..\obj\main.o: ..\STM32FWLIB\inc\stm32f10x_wwdg.h
 ..\obj\main.o: ..\STM32FWLIB\inc\misc.h
-..\obj\main.o: ..\OV\LED.h
-..\obj\main.o: ..\SYSTEM\delay\delay.h
 ..\obj\main.o: ..\SYSTEM\sys\sys.h
+..\obj\main.o: ..\SYSTEM\delay\delay.h
+..\obj\main.o: ..\SYSTEM\usart\usart.h
+..\obj\main.o: D:\KEIL\ARM\ARMCC\bin\..\include\stdio.h
+..\obj\main.o: ..\OV\TFT.h
+..\obj\main.o: D:\KEIL\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\main.o: ..\OV\LED.h
+..\obj\main.o: ..\OV\CAN.h
